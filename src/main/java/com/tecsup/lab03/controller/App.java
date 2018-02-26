@@ -8,7 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-    	Responsable x = new Responsable();
 
     Colaborador c=new Colaborador() ;
     c.multiplicacion();
