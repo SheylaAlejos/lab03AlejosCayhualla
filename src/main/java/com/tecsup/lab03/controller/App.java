@@ -1,7 +1,7 @@
 package com.tecsup.lab03.controller;
 
 /**
- * Hello world!
+ * Hello World! 
  *
  */
 public class App 
@@ -10,8 +10,15 @@ public class App
     {
     	Responsable x = new Responsable();
 
-        System.out.println( "Hello World!" );
+    Colaborador c=new Colaborador() ;
+    c.multiplicacion();
+    
+    c.division();
+    
+Responsable x = new Responsable() ;
+
         x.suma();
         x.resta();
     }
+
 }
